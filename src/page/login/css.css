@@ -1,0 +1,44 @@
+.top{
+    width:100%;height:1rem;
+    border-bottom:1px solid #efefef;
+    display: flex;
+    align-items: center;
+}   
+.top_left{
+    width: 0.65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_left img{
+    width: 100%;height: auto;
+    display: block;
+}
+.top_cen{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.25rem;
+}
+.cen{
+    flex: 1;
+    padding: 0.2rem;
+}
+.cen_bom{
+    width: 100%;height: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cen_bom p{
+    display: flex;
+}
+.a{
+    display: block;
+    width: 0.3rem;
+}
+.a img{
+    width: 100%;height: auto;
+    display: block;
+}
