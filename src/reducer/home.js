@@ -1,13 +1,15 @@
-import { FETCH_HOME_ACTION } from '@/constants/actionTypes'
+import { FETCH_HOME_NAV } from '@/constants/actionTypes'
 const defaultState = {
-  data: []
+  homeImg: []
 }
 
 export default function (state = defaultState, action) {
   switch (action.type) {
-    case FETCH_HOME_ACTION:
+    case FETCH_HOME_NAV:
+        const { data } = action.payload
        return {
-         ...state
+         ...state,
+         homeImg: data
        }
   
     default:

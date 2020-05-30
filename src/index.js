@@ -7,6 +7,7 @@ import Router from './router'
 import { store } from './store'
 import '@/utils/rem'
 import '@/utils/reset.css'
+import axios from 'axios'
 
 ReactDOM.render(
   <Provider store={store}>
@@ -16,3 +17,4 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 )
+
