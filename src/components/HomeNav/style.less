@@ -33,3 +33,40 @@
     }
   }
 }
+
+.liner {
+  background: linear-gradient(rgb(235, 22, 37) 0%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 0.7rem;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  top: 0;
+  .com-home-left, .com-home-rig {
+    width: 1rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.26rem;
+    .icon {
+      display: block;
+      font-size: 0.5rem;
+      width: 1rem;
+    }
+  }
+  .com-home-cen {
+    flex: 1;
+    padding: 0.15rem;
+    box-sizing: border-box;
+    .input {
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+      border-radius: 0.3rem;
+      opacity: 0.5;
+    }
+  }
+}

@@ -8,7 +8,7 @@ export default class Basic extends Component {
   render() {
     return (
       <div className="basic">
-        <div className="top">
+        <div className="top" onScroll={this.onScroll}>
           <Switch>
             <Route path="/home/list" component={Home}/>
             <Route path="/home/cart" component={Cart}/>

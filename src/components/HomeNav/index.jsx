@@ -9,7 +9,7 @@ const IconFont = Icon.createFromIconfontCN({
 export default class HomeNav extends Component {
   render() {
     return (
-      <div className="com-home">
+      <div className={this.props.name ? this.props.name : 'com-home'}>
         <div className="com-home-left">
           <IconFont type="iconcategory" className="icon" />
         </div>

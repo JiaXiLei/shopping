@@ -1,5 +1,8 @@
 //HOME
 export const FETCH_HOME_NAV = 'FETCH_HOME_NAV'
+export const FETCH_HOME_LIST = 'FETCH_HOME_LIST'
+export const FETCH_HOME_GOODS = 'FETCH_HOME_GOODS'
+
 
 
 
